@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <script src="js/jQuerry.js"></script>
   <script src="js/Bootatrap.js"></script>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <div class="main-frame">
   <header class="navbar4">
@@ -37,7 +37,7 @@
     </div>
     <div class="right-side">
       <button class="btn btn-go">
-        <a href="" class="primary11">Get Started</a></button>
+        <a href="sign-in.html" class="primary11">Get Started</a></button>
     </div>
   </header>
   <div class="slider-component">
@@ -63,8 +63,8 @@
                   </div>
                 </div>
                 <div>
-                  <p class="hny-title">Innovating Your</p>
-                  <p class="hny-title">Future with AI</p>
+                  <h2 class="hny-title">Innovating Your</h2>
+                  <h2 class="hny-title">Future with AI</h2>
                 </div>
                 <blockquote class="hny-black">
                   “Discover Rigga.ai and Tallyflow – Transforming Your <br>
@@ -542,9 +542,29 @@
       <div class="clients">
         <img loading="lazy" alt="" src="public/trenty.svg">
       </div>
+      <div id="hide-clients" class="logos hide">
+        <div class="clients">
+          <img loading="lazy" alt="" src="public/disney.svg">
+        </div>
+        <div class="clients">
+          <img loading="lazy" alt="" src="public/wechat.svg">
+        </div>
+        <div class="clients">
+          <img loading="lazy" alt="" src="public/ntt.svg">
+        </div>
+        <div class="clients">
+          <img loading="lazy" alt="" src="public/trenty.svg">
+        </div>
+        <div class="clients">
+          <img loading="lazy" alt="" src="public/trenty.svg">
+        </div>
+        <div class="clients">
+          <img loading="lazy" alt="" src="public/trenty.svg">
+        </div>
+      </div>
     </div>
     <div class="mt-5" style="font-size: 20px;">
-      <a href="blog.html">See all clients</a>
+      <a style="cursor: pointer;" id="seeallclients">See all clients</a>
     </div>
   </section>
   <section class="techmagesta-minds">
@@ -610,7 +630,7 @@
                 <div class="col-lg-12 col-md-12 col-xl-6 col-sm-12">
                   <div class="car">
                     <div class="row no-gutters">
-                      <div class="col-md-4 col-sm-6">
+                      <div class="col-md-5 col-sm-6">
                         <img src="public/bg2@2x.png" class="card-img" alt="Alex Smith">
                       </div>
                       <div class="col-md-6 col-sm-6">
@@ -623,7 +643,8 @@
                             <img src="public/star-1.svg" alt="">
                           </div>
                           <b>
-                            <p>""We love Landingfolio! Our designers were using it for their projects, so we already knew what kind of design they want.".
+                            <p>""We love Landingfolio! Our designers were using it for their projects, so we already
+                              knew what kind of design they want.".
                             </p>
                           </b>
                           <p><b>Jenny Wilson</b> <span>Grower.io</span></p>
@@ -635,7 +656,7 @@
                 <div class="col-lg-12 col-md-12 col-xl-6 col-sm-12 d-none d-sm-block">
                   <div class="car">
                     <div class="row no-gutters">
-                      <div class="col-md-4 col-sm-6 my-1">
+                      <div class="col-md-5 col-sm-6 my-1">
                         <img src="public/bg-12@2x.png" class="card-img" alt="Taylor White">
                       </div>
                       <div class="col-md-6 col-sm-6 my-1">
@@ -648,7 +669,8 @@
                             <img src="public/star-1.svg" alt="">
                           </div>
                           <b>
-                            <p>"Lorem ipsum dolor sit amet consectetur. Lectus risus a facilisis venenatis volutpat. In et ornare urna et nisl id. Id ultricies lectus ut.
+                            <p>"Lorem ipsum dolor sit amet consectetur. Lectus risus a facilisis venenatis volutpat. In
+                              et ornare urna et nisl id. Id ultricies lectus ut.
                             </p>
                           </b>
                           <p><b>Jenny Wilson</b> <span>Grower.io</span></p>
@@ -665,7 +687,7 @@
               <div class="col-lg-12 col-md-12 col-xl-6 col-sm-12">
                 <div class="car">
                   <div class="row no-gutters">
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-5 col-sm-6">
                       <img src="public/BG.png" class="card-img" alt="Alex Smith">
                     </div>
                     <div class="col-md-6 col-sm-6">
@@ -678,7 +700,8 @@
                           <img src="public/star-1.svg" alt="">
                         </div>
                         <b>
-                          <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+                          <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text.
                           </p>
                         </b>
                         <p><b>Jenny Wilson</b> <span>Grower.io</span></p>
@@ -690,7 +713,7 @@
               <div class="col-lg-12 col-md-12 col-xl-6 col-sm-12 d-none d-sm-block">
                 <div class="car">
                   <div class="row no-gutters">
-                    <div class="col-md-4 col-sm-6 my-1">
+                    <div class="col-md-5 col-sm-6 my-1">
                       <img src="public/t_3.png" class="card-img" alt="Taylor White">
                     </div>
                     <div class="col-md-6 col-sm-6 my-1">
@@ -703,7 +726,8 @@
                           <img src="public/star-1.svg" alt="">
                         </div>
                         <b>
-                          <p>"when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+                          <p>"when an unknown printer took a galley of type and scrambled it to make a type specimen
+                            book. It has survived not only five centuries.
                           </p>
                         </b>
                         <p><b>Jenny Wilson</b> <span>Grower.io</span></p>
@@ -719,7 +743,7 @@
               <div class="col-lg-12 col-md-12 col-xl-6 col-sm-12">
                 <div class="car">
                   <div class="row no-gutters">
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-5 col-sm-6">
                       <img src="public/t_7.png" class="card-img" alt="Alex Smith">
                     </div>
                     <div class="col-md-6 col-sm-6">
@@ -732,7 +756,8 @@
                           <img src="public/star-1.svg" alt="">
                         </div>
                         <b>
-                          <p>"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                          <p>"It is a long established fact that a reader will be distracted by the readable content of
+                            a page when looking at its layout.
                           </p>
                         </b>
                         <p><b>Jenny Wilson</b> <span>Grower.io</span></p>
@@ -744,7 +769,7 @@
               <div class="col-lg-12 col-md-12 col-xl-6 col-sm-12 d-none d-sm-block">
                 <div class="car">
                   <div class="row no-gutters">
-                    <div class="col-md-4 col-sm-6 my-1">
+                    <div class="col-md-5 col-sm-6 my-1">
                       <img src="public/t_8.png" class="card-img" alt="Taylor White">
                     </div>
                     <div class="col-md-6 col-sm-6 my-1">
@@ -757,7 +782,8 @@
                           <img src="public/star-1.svg" alt="">
                         </div>
                         <b>
-                          <p>"Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'.
+                          <p>"Many desktop publishing packages and web page editors now use Lorem Ipsum as their default
+                            model text, and a search for 'lorem ipsum'.
                           </p>
                         </b>
                         <p><b>Jenny Wilson</b> <span>Grower.io</span></p>
@@ -773,7 +799,7 @@
               <div class="col-lg-12 col-md-12 col-xl-6 col-sm-12">
                 <div class="car">
                   <div class="row no-gutters">
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-5 col-sm-6">
                       <img src="public/t_4.png" class="card-img" alt="Alex Smith">
                     </div>
                     <div class="col-md-6 col-sm-6">
@@ -786,7 +812,8 @@
                           <img src="public/star-1.svg" alt="">
                         </div>
                         <b>
-                          <p>"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.
+                          <p>"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                            of classical Latin literature from 45 BC.
                           </p>
                         </b>
                         <p><b>Jenny Wilson</b> <span>Grower.io</span></p>
@@ -798,7 +825,7 @@
               <div class="col-lg-12 col-md-12 col-xl-6 col-sm-12 d-none d-sm-block">
                 <div class="car">
                   <div class="row no-gutters">
-                    <div class="col-md-4 col-sm-6 my-1">
+                    <div class="col-md-5 col-sm-6 my-1">
                       <img src="public/t_5.png" class="card-img" alt="Taylor White">
                     </div>
                     <div class="col-md-6 col-sm-6 my-1">
@@ -811,7 +838,8 @@
                           <img src="public/star-1.svg" alt="">
                         </div>
                         <b>
-                          <p>"making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.
+                          <p>"making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+                            College in Virginia.
                           </p>
                         </b>
                         <p><b>Jenny Wilson</b> <span>Grower.io</span></p>
@@ -836,228 +864,229 @@
         </a>
       </div>
     </div>
-</div>
-<section class="ask-Question">
-  <div class="badge1 mt-2">
-    <div class="number">FAQ,s</div>
-  </div>
-  <h1 class="heading15 mt-4">
-    <span>Frequently asked questions</span>
-  </h1>
-  <div class="px-lg-5">
-    <blockquote class="hny-para mt-2">
-      "Everything you need to know about the product and billing."
-    </blockquote>
-    <div class="col-lg-8  mt-2 mx-auto">
-      <button class="accordion">What is TechMajesta?</button>
-      <div class="panel">
-        <p>TechMajesta is a leading technology company specializing in innovative software solutions designed to
-          streamline business operations and enhance productivity. We offer products like TallyFlow and Rigga.ai to
-          meet
-          various business needs.
-        </p>
-      </div>
-      <hr>
-      <button class="accordion">How can I contact TechMajesta for support or inquiries?</button>
-      <div class="panel">
-        <p>TechMajesta is a leading technology company specializing in innovative software solutions
-          designed to
-          streamline business operations and enhance productivity. We offer products like TallyFlow and
-          Rigga.ai to
-          meet
-          various business needs.
-        </p>
-      </div>
-      <hr>
-      <button class="accordion">What is TallyFlow?</button>
-      <div class="panel">
-        <p>TechMajesta is a leading technology company specializing in innovative software solutions
-          designed to
-          streamline business operations and enhance productivity. We offer products like TallyFlow and
-          Rigga.ai to
-          meet
-          various business needs.
-        </p>
-      </div>
-      <hr>
-      <button class="accordion">How does TallyFlow integrate with existing accounting systems?</button>
-      <div class="panel">
-        <p>TechMajesta is a leading technology company specializing in innovative software solutions
-          designed to
-          streamline business operations and enhance productivity. We offer products like TallyFlow and
-          Rigga.ai to
-          meet
-          various business needs.
-        </p>
-      </div>
-      <hr>
-      <button class="accordion">Is TallyFlow suitable for small businesses?</button>
-      <div class="panel">
-        <p>TechMajesta is a leading technology company specializing in innovative software solutions
-          designed to
-          streamline business operations and enhance productivity. We offer products like TallyFlow and
-          Rigga.ai to
-          meet
-          various business needs.
-        </p>
-      </div>
-      <hr>
-      <button class="accordion">What is Rigga.ai?</button>
-      <div class="panel">
-        <p>TechMajesta is a leading technology company specializing in innovative software solutions
-          designed to
-          streamline business operations and enhance productivity. We offer products like TallyFlow and
-          Rigga.ai to
-          meet
-          various business needs.
-        </p>
-      </div>
-      <hr>
-      <button class="accordion">Can Rigga.ai be customized to fit specific business needs?</button>
-      <div class="panel">
-        <p>TechMajesta is a leading technology company specializing in innovative software solutions
-          designed to
-          streamline business operations and enhance productivity. We offer products like TallyFlow and
-          Rigga.ai to
-          meet
-          various business needs.
-        </p>
+  </section>
+
+  <section class="ask-Question">
+    <div class="badge1 mt-2">
+      <div class="number">FAQ,s</div>
+    </div>
+    <h1 class="heading15 mt-4">
+      <span>Frequently asked questions</span>
+    </h1>
+    <div class="px-lg-5">
+      <blockquote class="hny-para mt-2">
+        "Everything you need to know about the product and billing."
+      </blockquote>
+      <div class="col-lg-8  mt-2 mx-auto">
+        <button class="accordion">What is TechMajesta?</button>
+        <div class="panel">
+          <p>TechMajesta is a leading technology company specializing in innovative software solutions designed to
+            streamline business operations and enhance productivity. We offer products like TallyFlow and Rigga.ai to
+            meet
+            various business needs.
+          </p>
+        </div>
+        <hr>
+        <button class="accordion">How can I contact TechMajesta for support or inquiries?</button>
+        <div class="panel">
+          <p>TechMajesta is a leading technology company specializing in innovative software solutions
+            designed to
+            streamline business operations and enhance productivity. We offer products like TallyFlow and
+            Rigga.ai to
+            meet
+            various business needs.
+          </p>
+        </div>
+        <hr>
+        <button class="accordion">What is TallyFlow?</button>
+        <div class="panel">
+          <p>TechMajesta is a leading technology company specializing in innovative software solutions
+            designed to
+            streamline business operations and enhance productivity. We offer products like TallyFlow and
+            Rigga.ai to
+            meet
+            various business needs.
+          </p>
+        </div>
+        <hr>
+        <button class="accordion">How does TallyFlow integrate with existing accounting systems?</button>
+        <div class="panel">
+          <p>TechMajesta is a leading technology company specializing in innovative software solutions
+            designed to
+            streamline business operations and enhance productivity. We offer products like TallyFlow and
+            Rigga.ai to
+            meet
+            various business needs.
+          </p>
+        </div>
+        <hr>
+        <button class="accordion">Is TallyFlow suitable for small businesses?</button>
+        <div class="panel">
+          <p>TechMajesta is a leading technology company specializing in innovative software solutions
+            designed to
+            streamline business operations and enhance productivity. We offer products like TallyFlow and
+            Rigga.ai to
+            meet
+            various business needs.
+          </p>
+        </div>
+        <hr>
+        <button class="accordion">What is Rigga.ai?</button>
+        <div class="panel">
+          <p>TechMajesta is a leading technology company specializing in innovative software solutions
+            designed to
+            streamline business operations and enhance productivity. We offer products like TallyFlow and
+            Rigga.ai to
+            meet
+            various business needs.
+          </p>
+        </div>
+        <hr>
+        <button class="accordion">Can Rigga.ai be customized to fit specific business needs?</button>
+        <div class="panel">
+          <p>TechMajesta is a leading technology company specializing in innovative software solutions
+            designed to
+            streamline business operations and enhance productivity. We offer products like TallyFlow and
+            Rigga.ai to
+            meet
+            various business needs.
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="container  mt-4 touch-box-frame">
-    <div class="image-frame">
-      <div class="avatar-group4">
-        <img class="avatar-icon12" alt="" src="public/avatar@2x.png">
-        <img class="avatar-icon13" loading="lazy" alt="" src="public/avatar-12@2x.png">
-        <img class="avatar-icon14" alt="" src="public/avatar-23@2x.png">
+    <div class="container  mt-4 touch-box-frame">
+      <div class="image-frame">
+        <div class="avatar-group4">
+          <img class="avatar-icon12" alt="" src="public/avatar@2x.png">
+          <img class="avatar-icon13" loading="lazy" alt="" src="public/avatar-12@2x.png">
+          <img class="avatar-icon14" alt="" src="public/avatar-23@2x.png">
+        </div>
+      </div>
+      <div class="community-text">
+        <h3>Still have questions?</h3>
+        <p>
+          "Can’t find the answer you’re looking for? Please chat to our
+          friendly team."
+        </p>
+        <button class="btn btn-primary text-white">Get In Touch</button>
       </div>
     </div>
-    <div class="community-text">
-      <h3>Still have questions?</h3>
-      <p>
-        "Can’t find the answer you’re looking for? Please chat to our
-        friendly team."
-      </p>
-      <button class="btn btn-primary text-white">Get In Touch</button>
+  </section>
+  <section class="cta8 ">
+    <h2>Be the First one to know about discounts <br>
+      Offers and events. Join Now
+    </h2>
+    <div class="email-container">
+      <input type="email" placeholder="Enter your email" required>
+      <button type="submit">Submit</button>
     </div>
-  </div>
-</section>
-<section class="cta8 ">
-  <h2>Be the First one to know about discounts <br>
-    Offers and events. Join Now
-  </h2>
-  <div class="email-container">
-    <input type="email" placeholder="Enter your email" required>
-    <button type="submit">Submit</button>
-  </div>
-</section>
-<footer class="footer-frame">
-  <div class="top-footer container-fluid px-lg-5 px-md-3 px-sm-3">
-    <div class="row justify-content-between align-items-center">
-      <div class="col-lg-6 py-3">
-        <ul class="d-flex flex-wrap list-unstyled align-items-center" style="gap: 20px;">
-          <li><img src="public/techmejsta-logo-22@2x.png" width="40px" height="30px" alt=""></li>
-          <li><a href="#" class="link">Home</a></li>
-          <li><a href="#" class="link">Products</a></li>
-          <li><a href="#" class="link">Features</a></li>
-          <li><a href="#" class="link">Abouts US</a></li>
-          <li><a href="#" class="link">Culture</a></li>
-          <li><a href="#" class="link">Contact US</a></li>
-        </ul>
+  </section>
+  <footer class="footer-frame">
+    <div class="top-footer container-fluid px-lg-5 px-md-3 px-sm-3">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-lg-6 py-3">
+          <ul class="d-flex flex-wrap list-unstyled align-items-center" style="gap: 20px;">
+            <li><img src="public/techmejsta-logo-22@2x.png" width="40px" height="30px" alt=""></li>
+            <li><a href="#" class="link">Home</a></li>
+            <li><a href="#" class="link">Products</a></li>
+            <li><a href="#" class="link">Features</a></li>
+            <li><a href="#" class="link">Abouts US</a></li>
+            <li><a href="#" class="link">Culture</a></li>
+            <li><a href="#" class="link">Contact US</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 ">
+          <ul class="d-flex  list-unstyled justify-content-around align-items-center" style="gap: 20px;">
+            <li><a href="#" class="link"><img src="public/svg@2x.png" width="20px" alt="facebook"></a></li>
+            <li><a href="#" class="link"><img src="public/svg-1.svg" width="20px" alt=""></a></a></li>
+            <li><a href="#" class="link"><img src="public/svg-2.svg" width="20px" alt=""></a></a></li>
+            <li><a href="#" class="link"><img src="public/svg-33@2x.png" width="20px" alt=""></a></a></li>
+            <li><a href="#" class="link"><img src="public/svg-42@2x.png" width="20px" alt=""></a></a></li>
+          </ul>
+        </div>
       </div>
-      <div class="col-lg-4 ">
-        <ul class="d-flex  list-unstyled justify-content-around align-items-center" style="gap: 20px;">
-          <li><a href="#" class="link"><img src="public/svg@2x.png" width="20px" alt="facebook"></a></li>
-          <li><a href="#" class="link"><img src="public/svg-1.svg" width="20px" alt=""></a></a></li>
-          <li><a href="#" class="link"><img src="public/svg-2.svg" width="20px" alt=""></a></a></li>
-          <li><a href="#" class="link"><img src="public/svg-33@2x.png" width="20px" alt=""></a></a></li>
-          <li><a href="#" class="link"><img src="public/svg-42@2x.png" width="20px" alt=""></a></a></li>
-        </ul>
-      </div>
+      <hr>
     </div>
-    <hr>
-  </div>
-  <div class="middle-footer container-fluid px-lg-5 px-md-3 px-sm-4">
-    <div class="row justify-content-around flex-wrap align-items-start">
-      <div class="col-lg-2 col-sm-4">
-        <ul class="d-flex flex-column list-unstyled align-items-start" style="gap: 20px;">
-          <b>
-            <li>About</li>
-          </b>
-          <li><a href="#" class="link">Platform Overview</a></li>
-          <li><a href="#" class="link">Integrations</a></li>
-          <li><a href="#" class="link">Extensions</a></li>
-          <li><a href="#" class="link">App Building</a></li>
-          <li><a href="#" class="link">AI</a></li>
-          <li><a href="#" class="link">Connected Data</a></li>
-        </ul>
+    <div class="middle-footer container-fluid px-lg-5 px-md-3 px-sm-4">
+      <div class="row justify-content-around flex-wrap align-items-start">
+        <div class="col-lg-2 col-sm-4">
+          <ul class="d-flex flex-column list-unstyled align-items-start" style="gap: 20px;">
+            <b>
+              <li>About</li>
+            </b>
+            <li><a href="#" class="link">Platform Overview</a></li>
+            <li><a href="#" class="link">Integrations</a></li>
+            <li><a href="#" class="link">Extensions</a></li>
+            <li><a href="#" class="link">App Building</a></li>
+            <li><a href="#" class="link">AI</a></li>
+            <li><a href="#" class="link">Connected Data</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-sm-4">
+          <ul class="d-flex flex-column list-unstyled align-items-start" style="gap: 20px;">
+            <b>
+              <li>Support</li>
+            </b>
+            <li><a href="#" class="link">Product</a></li>
+            <li><a href="#" class="link">Marketing</a></li>
+            <li><a href="#" class="link">Operations</a></li>
+            <li><a href="#" class="link">Human Resources</a></li>
+            <li><a href="#" class="link">Sales</a></li>
+            <li><a href="#" class="link">Finance</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-sm-4">
+          <ul class="d-flex flex-column list-unstyled align-items-start" style="gap: 20px;">
+            <b>
+              <li>Quick Links</li>
+            </b>
+            <li><a href="#" class="link">Learning Center</a></li>
+            <li><a href="#" class="link">Events</a></li>
+            <li><a href="#" class="link">Video Center</a></li>
+            <li><a href="#" class="link">Demos</a></li>
+            <li><a href="#" class="link">Customer Stories</a></li>
+            <li><a href="#" class="link">Webinars</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-sm-4 mt-3">
+          <ul class="d-flex flex-column list-unstyled align-items-start" style="gap: 20px;">
+            <b>
+              <li>Resources</li>
+            </b>
+            <li><a href="#" class="link">Partners</a></li>
+            <li><a href="#" class="link">Services</a></li>
+            <li><a href="#" class="link">Developers</a></li>
+            <li><a href="#" class="link">Community</a></li>
+            <li><a href="#" class="link">Templates</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-sm-4 mt-3">
+          <ul class="d-flex flex-column list-unstyled align-items-start" style="gap: 20px;">
+            <b>
+              <li>Company</li>
+            </b>
+            <li><a href="#" class="link text">About</a></li>
+            <li><a href="#" class="link text">Careers</a></li>
+            <li><a href="#" class="link text">Blog</a></li>
+            <li><a href="#" class="link text">Status</a></li>
+            <li><a href="#" class="link text">Newsroom</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="col-lg-2 col-sm-4">
-        <ul class="d-flex flex-column list-unstyled align-items-start" style="gap: 20px;">
-          <b>
-            <li>Support</li>
-          </b>
-          <li><a href="#" class="link">Product</a></li>
-          <li><a href="#" class="link">Marketing</a></li>
-          <li><a href="#" class="link">Operations</a></li>
-          <li><a href="#" class="link">Human Resources</a></li>
-          <li><a href="#" class="link">Sales</a></li>
-          <li><a href="#" class="link">Finance</a></li>
-        </ul>
-      </div>
-      <div class="col-lg-2 col-sm-4">
-        <ul class="d-flex flex-column list-unstyled align-items-start" style="gap: 20px;">
-          <b>
-            <li>Quick Links</li>
-          </b>
-          <li><a href="#" class="link">Learning Center</a></li>
-          <li><a href="#" class="link">Events</a></li>
-          <li><a href="#" class="link">Video Center</a></li>
-          <li><a href="#" class="link">Demos</a></li>
-          <li><a href="#" class="link">Customer Stories</a></li>
-          <li><a href="#" class="link">Webinars</a></li>
-        </ul>
-      </div>
-      <div class="col-lg-2 col-sm-4 mt-3">
-        <ul class="d-flex flex-column list-unstyled align-items-start" style="gap: 20px;">
-          <b>
-            <li>Resources</li>
-          </b>
-          <li><a href="#" class="link">Partners</a></li>
-          <li><a href="#" class="link">Services</a></li>
-          <li><a href="#" class="link">Developers</a></li>
-          <li><a href="#" class="link">Community</a></li>
-          <li><a href="#" class="link">Templates</a></li>
-        </ul>
-      </div>
-      <div class="col-lg-2 col-sm-4 mt-3">
-        <ul class="d-flex flex-column list-unstyled align-items-start" style="gap: 20px;">
-          <b>
-            <li>Company</li>
-          </b>
-          <li><a href="#" class="link text">About</a></li>
-          <li><a href="#" class="link text">Careers</a></li>
-          <li><a href="#" class="link text">Blog</a></li>
-          <li><a href="#" class="link text">Status</a></li>
-          <li><a href="#" class="link text">Newsroom</a></li>
-        </ul>
-      </div>
+      <hr>
     </div>
-    <hr>
-  </div>
-  <div class="bottom-footer py-2 container-fluid px-5">
-    <div class="row justify-content-between">
-      <div class="col-lg-3 col-md-6 col-sm-6 my-1">
-        <span class="mx-2"><a href=""> Privacy policy</a></span>
-        <span class="mx-2"><a href=""> Terms of Use</a></span>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 my-1">
-        <span>© 2024 TechMajesta, All Rights Reserved</span>
+    <div class="bottom-footer py-2 container-fluid px-5">
+      <div class="row justify-content-between">
+        <div class="col-lg-3 col-md-6 col-sm-6 my-1">
+          <span class="mx-2"><a href=""> Privacy policy</a></span>
+          <span class="mx-2"><a href=""> Terms of Use</a></span>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 my-1">
+          <span>© 2024 TechMajesta, All Rights Reserved</span>
+        </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script>
@@ -1075,6 +1104,13 @@
       }
     });
   }
+</script>
+<script>
+  $(document).ready(function () {
+    $('#seeallclients').on('click', function () {
+      $('#hide-clients').toggleClass('hide')
+    })
+  })
 </script>
 <script>
   $(document).ready(function () {
